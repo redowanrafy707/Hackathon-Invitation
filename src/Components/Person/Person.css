@@ -1,0 +1,25 @@
+.avatar img{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    margin-left:70px;
+    border-radius: 50%;
+  } 
+  .btn-color{
+     
+      color: white;
+  }
+  .card{
+      height: 570px;
+      box-shadow: 5px 5px 10px gray;
+      border-radius: 5px;
+      background-color: rgb(248, 240, 229);
+  }
+  .card:hover{
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+    background-color: rgb(250, 244, 237);
+    transform: scale(1);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
